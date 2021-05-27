@@ -7,3 +7,15 @@ export const Welcome = (
     </div>
 )
 
+export const QuestionAboutOwner = (
+    <div>
+        <h3>CZY SPRAWA DOTYCZY NUMERU ZREJESTROWNEGO NA TĘ SAMĄ OSOBĘ, CO NUMER Z KTÓREGO DZWONI KLIENT?</h3>
+    </div>
+)
+
+export const NegativeVerification = (
+    <h3>IDENTYFIKACJA NEGTYWNA Poinformuj klienta o braku możliwości obsługi z uwagi na błędne dane lub ich brak. Zaproś do ponownego kontaktu, kiedy klient będzie znał poprawne dane do identyfikacji, bądź zaproś do sklepu z dowodem osobistym jeśli jest właścicielem usługi.</h3>
+)
+
+
+

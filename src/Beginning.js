@@ -5,7 +5,11 @@ import CustomerKnowsTheOwner from './CustomerKnowsTheOwner'
 const Beginning = () => {
     return (
         <div>
-            <AnswerTemplate firsttext={Welcome} YesComponent={CustomerKnowsTheOwner} finishingtext={NegativeVerification} />
+            <AnswerTemplate firsttext={(
+                <div>
+                    <h2>1. W czym mogę pomóc?</h2>
+                    <h2>2. Jakiego numeru dotyczy sprawa?</h2>
+                    <h2>3. Na kogo zarejestrowany jest numer? Czy klient wie?</h2></div>)} YesComponent={CustomerKnowsTheOwner} finishingtext={NegativeVerification} />
         </div>
     )
 }

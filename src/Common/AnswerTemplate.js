@@ -21,7 +21,12 @@ function reducer(state, action) {
     }
 }
 
-export default function AnswerTemplate({ firsttext, YesComponent, nocomponent, finishingtext }) {
+export default function AnswerTemplate({
+    firsttext,
+    YesComponent,
+    NoComponent,
+    finishingtext
+}) {
     const [state, dispatch] = useReducer(reducer, {
         answer: null,
         yesButtonColor: "aliceblue",
@@ -58,9 +63,11 @@ export default function AnswerTemplate({ firsttext, YesComponent, nocomponent, f
             {state.answer === null ? (
                 <></>
             ) : state.answer === true ? (
-                <YesComponent />
+                (YesComponent && <YesComponent />) ||
+                (finishingtext && <div>{finishingtext}</div>) || <h1>Blurp</h1>
             ) : (
-                <div>{finishingtext}</div>
+                (NoComponent && <NoComponent />) ||
+                (finishingtext && <div>{finishingtext}</div>) || <h1>Blurp</h1>
             )}
         </div>
     );

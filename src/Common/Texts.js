@@ -23,5 +23,13 @@ export const ThirdPartyContact = (
     </>
 )
 
+export const Verification_1 = (
+    <h3>PRZEPROWADŹ WERYFIKACJĘ TWARDĄ. CZY KLIENT PODAŁ PRAWIDŁOWE DANE? HASŁO ABONENCIE, PESEL?</h3>
+)
+
+export const PositiveVerification = (
+    <h3>IDENTYFIKACJA KLIENTA POZYTYWNA. Możesz realizować wszystkie dyspozycje klienta, poza tymi, które wymagają pisma klienta.</h3>
+)
+
 
 

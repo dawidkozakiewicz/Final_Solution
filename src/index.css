@@ -41,12 +41,12 @@ button:hover {
   max-width: 1200px;
   margin: 0 auto;
   padding: 15px;
-  background-color: #E22674;
+  background-color: #268ce2;
   filter: drop-shadow(-5px 5px 6px rgb(0, 0, 0));
   border-radius: 15px;
 }
 
-.App {
+.Beginning {
   border: 2px dotted white;
   padding: 15px;
   border-radius: 15px;
@@ -76,7 +76,7 @@ h1, h2, h3, p {
 }
 
 .resetColor {
-  color: #E22674;
+  color: #268ce2;
 }
 
 @media only screen and (max-width: 620px) {

@@ -7,14 +7,14 @@ function reducer(state, action) {
                 ...state,
                 answer: true,
                 yesButtonColor: "#28E294",
-                noButtonColor: "white"
+                noButtonColor: "aliceblue"
             };
         case "no":
             return {
                 ...state,
                 answer: false,
                 noButtonColor: "#D8524E",
-                yesButtonColor: "white"
+                yesButtonColor: "aliceblue"
             };
         case "changecolor":
             return { ...state, backgroundColor: "transparent" };
@@ -31,7 +31,7 @@ export default function AnswerTemplate({
         answer: null,
         yesButtonColor: "aliceblue",
         noButtonColor: "aliceblue",
-        backgroundColor: "#676767"
+        backgroundColor: "#343A40"
     });
 
     function confirm(e) {
@@ -53,7 +53,7 @@ export default function AnswerTemplate({
     }, []);
     return (
         <div>
-            <div style={{ backgroundColor: state.backgroundColor }}>{firsttext}</div>
+            <div style={{ backgroundColor: state.backgroundColor, paddingLeft: "30px", borderRadius: "15px" }}>{firsttext}</div>
             <button onClick={confirm} style={{ background: state.yesButtonColor }}>
                 TAK
       </button>

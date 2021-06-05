@@ -1,9 +1,10 @@
 import Beginning from './Beginning'
 
 
+
 function App() {
   return (
-    <div >
+    <div className="Beginning" >
       <Beginning />
     </div>
   );

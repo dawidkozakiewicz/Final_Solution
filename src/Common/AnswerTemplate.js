@@ -31,7 +31,7 @@ export default function AnswerTemplate({
         answer: null,
         yesButtonColor: "aliceblue",
         noButtonColor: "aliceblue",
-        backgroundColor: "#343A40"
+        backgroundColor: "#c11451"
     });
 
     function confirm(e) {

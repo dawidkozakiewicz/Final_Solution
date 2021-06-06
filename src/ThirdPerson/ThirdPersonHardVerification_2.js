@@ -1,12 +1,13 @@
 import React from 'react'
 import AnswerTemplate from '../Common/AnswerTemplate'
-import { HardVerification_2 } from '../Common/Texts'
+import { Verification_2 } from '../Common/Texts'
 import AdditionalVerificationn from './AdditionalVerification'
+import ThirdPersonQuestionAboutCase from './ThirdPersonQuestionAboutCase'
 
 const ThirdPersonHardVerification_1 = () => {
     return (
         <div>
-            <AnswerTemplate firsttext={HardVerification_2} YesComponent={AdditionalVerificationn} NoComponent={null} />
+            <AnswerTemplate firsttext={Verification_2} YesComponent={AdditionalVerificationn} NoComponent={ThirdPersonQuestionAboutCase} />
         </div>
     )
 }

@@ -6,19 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Web site created using create-react-app" />
   <link rel="stylesheet" href="./preloader.css">
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <title>Weryfikacje 'IN'</title>
 </head>
 
 <body>
-  <div id="preloader" className="preloader-hidden">
-    <div className="dot"></div>
-    <div className="dot"></div>
-    <div className="dot"></div>
+  <div id="preloader" classname="preloader-hidden">
+    <!-- <div classname="dot"></div>
+    <div classname="dot"></div>
+    <div classname="dot"></div> -->
+    <img src="./t-mobile.gif" alt="octopus">
   </div>
   <div id="root"></div>
-  <script>var preloaderEl = document.querySelector("#preloader");
-    window.addEventListener("load", (function () { preloaderEl.classList.add("preloader-hiding"), preloaderEl.addEventListener("transitionend", (function () { this.classList.add("preloader-hidden"), this.classList.remove("preloader-hiding") })) }))</script>
+  <script>
+    var preloaderEl = document.querySelector('#preloader');
+    window.addEventListener('load', function () {
+      preloaderEl.classList.add('preloader-hiding');
+      preloaderEl.addEventListener('transitionend', function () {
+        this.classList.add('preloader-hidden');
+        this.classList.remove('preloader-hiding');
+      });
+    });
+  </script>
   <script>
     document.addEventListener('click', () => { window.scrollTo(0, document.body.scrollHeight,); })
     var x = document.querySelector("#root > div")

@@ -1,7 +1,7 @@
 /* Preloader */
 
 #preloader {
-    background: #E22673 linear-gradient(to right, #d11562, #E22673);
+    background: #E0266C linear-gradient(to right, #d11562, #E0266C);
     width: 100%;
     height: 100%;
     position: fixed;
@@ -13,6 +13,10 @@
     justify-content: center;
     align-items: center;
     transition: opacity .35s ease;
+}
+
+img {
+    max-width: 100%;
 }
 
 /* Helpers */

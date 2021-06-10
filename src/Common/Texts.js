@@ -8,7 +8,7 @@ export const Welcome = (
 )
 
 export const QuestionAboutOwner = (
-    <h3>CZY SPRAWA DOTYCZY NUMERU ZREJESTROWNEGO NA TĘ SAMĄ OSOBĘ, CO NUMER Z KTÓREGO DZWONI KLIENT?</h3>
+    <h3>CZY SPRAWA DOTYCZY NUMERU ZAREJESTROWNEGO NA TĘ SAMĄ OSOBĘ, CO NUMER Z KTÓREGO DZWONI KLIENT?</h3>
 )
 
 export const NegativeVerification = (
@@ -28,7 +28,7 @@ export const Verification_1 = (
 )
 
 export const PositiveVerification = (
-    <h3 style={{ border: "1px solid #69E294", padding: "15px", borderRadius: "15px", color: "#69E294", fontSize: "23px", textDecorationLine: "underline", background: "#c11451", filter: "none" }}>IDENTYFIKACJA KLIENTA POZYTYWNA. Możesz realizować wszystkie dyspozycje klienta, poza tymi, które wymagają pisma klienta.</h3>
+    <h3 style={{ border: "1px solid #69E294", padding: "15px", borderRadius: "15px", color: "#69E294", fontSize: "23px", textDecorationLine: "underline", background: "#c11451", filter: "none" }}>IDENTYFIKACJA KLIENTA POZYTYWNA. MOŻESZ REALIZOWAĆ WSZYSTKIE DYSPOZYCJE KLIENTA, POZA TYMI, KTÓRE WYMAGAJĄ PISMA KLIENTA.</h3>
 )
 
 
@@ -80,20 +80,31 @@ export const DetVer = (
 )
 
 export const Case = (
-    <h3>CZY SPRAWA KLIENTA DOTYCZY: wyjaśnienia płatności, problemów technicznych, wyłączenia usług premium, założenia blokad premium, kradzieży/zagubienia, włączenia/wyłączenia usług promocyjnych, podania informacji o wykorzystanych jednostkach?</h3>
+    <>
+        <h3>CZY SPRAWA KLIENTA DOTYCZY:</h3>
+        <ul>
+            <li>wyjaśnienia płatności,</li>
+            <li>problemów technicznych,</li>
+            <li>wyłączenia usług premium, założenia blokad premium,</li>
+            <li>kradzieży/zagubienia,</li>
+            <li>włączenia/wyłączenia usług promocyjnych,</li>
+            <li>podania informacji o wykorzystanych jednostkach?</li>
+        </ul>
+    </>
+
 )
 
 export const LimitedVerification = (
-    <div style={{ marginTop: "15px", border: "1px solid #69E294", padding: "15px", borderRadius: "15px", color: "#69E294", fontSize: "23px", textDecorationLine: "underline", background: "#c11451", filter: "none" }}>
+    <div style={{ marginTop: "15px", border: "1px solid #69E294", padding: "15px", borderRadius: "15px", color: "#69E294", fontSize: "23px", background: "#c11451", filter: "none" }}>
         <h3>IDENTYFIKACJA OGRANICZONA</h3>
         <h3>Możesz zrealizować tylko następujące dyspozycje klienta:</h3>
         <ul>
-            <li>wyjaśnienie płatności</li>
-            <li>wyjaśnienie problemów technicznych</li>
+            <li>wyjaśnienie płatności,</li>
+            <li>wyjaśnienie problemów technicznych,</li>
             <li>wyłączenie usług premium</li>
-            <li>założenie blokad (premium, kradzież/zagubienie)</li>
-            <li>włączenie/wyłczenie usług promocyjnych</li>
-            <li>podanie informacji o wykorzystanych jednostkach</li>
+            <li>założenie blokad (premium, kradzież/zagubienie),</li>
+            <li>włączenie/wyłczenie usług promocyjnych,</li>
+            <li>podanie informacji o wykorzystanych jednostkach.</li>
         </ul>
     </div>
 )

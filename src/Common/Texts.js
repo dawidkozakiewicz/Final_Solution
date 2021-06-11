@@ -28,7 +28,7 @@ export const Verification_1 = (
 )
 
 export const PositiveVerification = (
-    <h3 style={{ border: "1px solid #69E294", padding: "15px", borderRadius: "15px", color: "#69E294", fontSize: "23px", textDecorationLine: "underline", background: "#c11451", filter: "none" }}>IDENTYFIKACJA KLIENTA POZYTYWNA. MOŻESZ REALIZOWAĆ WSZYSTKIE DYSPOZYCJE KLIENTA, POZA TYMI, KTÓRE WYMAGAJĄ PISMA KLIENTA.</h3>
+    <h3 style={{ border: "1px solid #69E294", padding: "15px", borderRadius: "15px", color: "#69E294", fontSize: "23px", background: "#c11451", filter: "none" }}>IDENTYFIKACJA KLIENTA POZYTYWNA. MOŻESZ REALIZOWAĆ WSZYSTKIE DYSPOZYCJE KLIENTA, POZA TYMI, KTÓRE WYMAGAJĄ PISMA KLIENTA.</h3>
 )
 
 

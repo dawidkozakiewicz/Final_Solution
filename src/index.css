@@ -52,7 +52,7 @@ button:hover {
   border-radius: 15px;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
   filter: drop-shadow(-2px 2px 3px rgb(0, 0, 0));
 }
 
@@ -106,7 +106,7 @@ a {
   h1, h2, h3, p {
     font-size: 14px;
   }
-  li {
+  li, h4 {
     font-size: 11px;
   }
   .reset {

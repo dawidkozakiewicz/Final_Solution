@@ -68,13 +68,30 @@ export const DetVer = (
             <li>kontaktowy/obsługowy adres email</li>
             <li>nr karty sim</li>
         </ul>
-        <h3>Zestaw B:</h3>
-        <ul>
-            <li>data urodzenia</li>
-            <li>adres zameldowania</li>
-            <li>adres korespondencyjny</li>
-            <li>seria i numer dowodu osobistego</li>
-        </ul>
+        <div style={{ display: "flex", justifyContent: "start" }}>
+            <div>
+                <h3>Zestaw B:</h3>
+                <h4>(dla OS. FIZ. oraz JDG.)</h4>
+                <ul>
+                    <li>data urodzenia</li>
+                    <li>adres zameldowania</li>
+                    <li>adres korespondencyjny</li>
+                    <li>seria i numer dowodu osobistego</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Zestaw B:</h3>
+                <h4>(firmy inne niż JDG.)</h4>
+                <ul>
+                    <li>NIP</li>
+                    <li>REGON</li>
+                    <li>adr. koresp.</li>
+                    <li>adr. siedziby firmy</li>
+                </ul>
+            </div>
+        </div>
+
+
         <h3>CZY KLIENT ODPOWIEDZIAŁ POPRAWNIE?</h3>
     </>
 )

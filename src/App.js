@@ -22,7 +22,7 @@ function App() {
         <Link to="/"><button className="reset">RESET</button></Link>
         <Switch>
           <Route exact path="/">
-            <h1>Wybierz z menu typ połączenia :-)</h1>
+            <h1>Cześć! :-) Wybierz z menu typ połączenia :-)</h1>
           </Route>
           <Route path="/przychodzace">
             <Beginning />

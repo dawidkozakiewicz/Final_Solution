@@ -143,13 +143,19 @@ a {
 }
 
 .Navbar .Link {
-  width: 50%;
+  width: 47%;
   padding-left: 15px;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
-  background-color: #E22673;
+  /* background-color: #E22673; */
   transition-duration: 1s;
   color: aliceblue;
+}
+
+.Navbar .Link:nth-child(1) {
+  border-right: 1px solid white;
+}
+
+.Navbar .Link:nth-child(2) {
+  border-left: 1px solid white;
 }
 
 .Navbar .Link:hover {

@@ -8,7 +8,10 @@ import CustomerKnowsTheOwner from './CustomerKnowsTheOwner'
 
 const Beginning = () => {
     return (
-        <AnswerTemplate firsttext={Welcome} YesComponent={CustomerKnowsTheOwner} finishingtext={NegativeVerification} />
+        <>
+            <h1>PRZYCHODZĄCE</h1>
+            <AnswerTemplate firsttext={Welcome} YesComponent={CustomerKnowsTheOwner} finishingtext={NegativeVerification} />
+        </>
     )
 }
 

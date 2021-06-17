@@ -37,6 +37,12 @@ button:hover {
   cursor: pointer;
 }
 
+button:active {
+  filter: none;
+  position: relative;
+  top: 1px;
+}
+
 #root {
   max-width: 1200px;
   margin: 0 auto;
@@ -75,12 +81,6 @@ h1, h2, h3, h4, p {
   float: right;
   filter: drop-shadow(-2px 2px 3px rgb(0, 0, 0));
   color: #E22673;
-}
-
-.reset:hover {
-  background-color: #d0d7ee;
-  color: #d11562;
-  transition-duration: 1s;
 }
 
 .author {

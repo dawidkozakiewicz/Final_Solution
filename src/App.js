@@ -1,6 +1,6 @@
 import Beginning from './Beginning'
 import { useState } from 'react';
-import Outcomings from './Outcomings'
+import OpeningConversation from './out/OpeningConversation'
 
 
 
@@ -21,7 +21,7 @@ function App() {
         <h1>Cześć :-) Wybierz typ połączenia:</h1>
         <button onClick={() => setConnectionType('in')}>IN</button>
         <button onClick={() => setConnectionType('out')}>OUT</button>
-        {connectionType === null ? (<></>) : connectionType === 'in' ? (<Beginning />) : (<Outcomings />)}
+        {connectionType === null ? (<></>) : connectionType === 'in' ? (<Beginning />) : (<OpeningConversation />)}
       </div>
     </>
   );

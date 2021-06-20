@@ -1,9 +1,10 @@
 
 export const Welcome = (
     <>
-        <h2>1. W czym mogę pomóc?</h2>
-        <h2>2. Jakiego numeru dotyczy sprawa?</h2>
-        <h2>3. Na kogo zarejestrowany jest numer? Czy klient wie?</h2>
+        <h2>1. Poinformuj o nagrywaniu rozmowy.</h2>
+        <h2>2. W czym mogę pomóc?</h2>
+        <h2>4. Jakiego numeru dotyczy sprawa?</h2>
+        <h2>5. Na kogo zarejestrowany jest numer? Czy klient wie?</h2>
     </>
 )
 
@@ -127,4 +128,7 @@ export const LimitedVerification = (
 )
 
 
+export const PermitForAnAnnex = (
+    <h3 style={{ border: "1px solid #69E294", padding: "15px", borderRadius: "15px", color: "#69E294", fontSize: "23px", background: "#c11451", filter: "none" }}>MOŻESZ PRZEPROWADZIĆ ANEKS, BĄDŹ ZAWRZEĆ NOWĄ UMOWĘ.</h3>
+)
 

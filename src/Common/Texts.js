@@ -129,6 +129,6 @@ export const LimitedVerification = (
 
 
 export const PermitForAnAnnex = (
-    <h3 style={{ border: "1px solid #69E294", padding: "15px", borderRadius: "15px", color: "#69E294", fontSize: "23px", background: "#c11451", filter: "none" }}>MOŻESZ PRZEPROWADZIĆ ANEKS, BĄDŹ ZAWRZEĆ NOWĄ UMOWĘ.</h3>
+    <h3 style={{ border: "1px solid #69E294", padding: "15px", borderRadius: "15px", color: "#69E294", fontSize: "23px", background: "#c11451", filter: "none" }}>MOŻESZ ZREALIZOWAĆ ANEKS, BĄDŹ ZAWRZEĆ NOWĄ UMOWĘ. (MOŻESZ RÓWNIEŻ UDZIELAĆ INFORMACJI NA TEMAT KONTA).</h3>
 )
 

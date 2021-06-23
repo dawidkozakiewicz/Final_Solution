@@ -16,7 +16,11 @@ function App() {
   return (
     <>
       <div className="Beginning" >
-        <a href="http://dawidkozakiewicz.com/" target="_blank"><div className="author">O AUTORZE</div></a>
+        <a href="http://dawidkozakiewicz.com/" target="_blank">
+          <div className="author">
+            O AUTORZE
+          </div>
+        </a>
         <div onClick={() => handleReset()} className="reset">RESET</div>
         <h1>Cześć :-) Wybierz typ połączenia:</h1>
         <button onClick={() => setConnectionType('in')}>IN</button>

@@ -56,18 +56,18 @@ export default function AnswerTemplate({
             <div style={{ backgroundColor: state.backgroundColor, paddingLeft: "30px", borderRadius: "15px" }}>{firsttext}</div>
             <button onClick={confirm} style={{ background: state.yesButtonColor }}>
                 TAK
-      </button>
+            </button>
             <button onClick={deny} style={{ background: state.noButtonColor }}>
                 NIE
-      </button>
+            </button>
             {state.answer === null ? (
                 <></>
             ) : state.answer === true ? (
                 (YesComponent && <YesComponent />) ||
-                (finishingtext && <div>{finishingtext}</div>) || <h1>Blurp</h1>
+                (finishingtext && <div>{finishingtext}</div>)
             ) : (
                 (NoComponent && <NoComponent />) ||
-                (finishingtext && <div>{finishingtext}</div>) || <h1>Blurp</h1>
+                (finishingtext && <div>{finishingtext}</div>)
             )}
         </div>
     );

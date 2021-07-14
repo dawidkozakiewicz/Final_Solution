@@ -34,6 +34,8 @@ export default function AnswerTemplate({
         backgroundColor: "#c11451"
     });
 
+
+
     function confirm(e) {
         dispatch({ type: "yes" });
     }
